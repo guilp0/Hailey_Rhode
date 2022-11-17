@@ -1,0 +1,80 @@
+/*##########Codigos do menu de navegação de todas as paginas:##########*/
+
+body {color:rgb(5, 5, 5); 
+     font-size: 25px;
+     font-family:arial ;
+     background-image: url('back.jpg'); width: 99%;}
+
+a:link, a:visited{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: rgb(233, 233, 233);
+     text-decoration: none; text-align: center;}
+ 
+a:hover{color: rgb(255, 0, 179); }
+a:active{color: rgb(255, 255, 255);}
+
+
+/*-- ### Menu ###--*/
+.navegacao{display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     width: 100%;
+     background-color: rgb(236, 236, 236);
+     border-radius: 10px;
+     border: solid 2px rgb(255, 0, 179);}
+
+.marca{height: 90px; margin-left: 10px;}
+
+.menu{width: 680px; height: 120px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;}
+
+.botao{border: 2px solid rgb(255, 0, 179); border-radius: 10px; background-color: rgb(204, 0, 255); 
+      width: 150px; height: 90px; align-items: center; margin-right: 15px;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      justify-content:center}
+/*#########  FIM dos codigos globais e MENU##########*/
+
+
+
+/*######### Codigos da Index.html ##########*/
+.photo{width: 100%; border:2px solid rgb(255, 0, 179); border-radius: 10px;}
+/*######### FIM INDEX ##########*/
+ 
+
+
+ /*######### Codigos da pagina de Biografia: ##########*/
+.bio_corpo{ display: flex;
+     flex-direction: column;
+     width: 100%;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+     border: 2px solid rgb(255, 0, 179)}
+
+.bio_titulo{font-size: 60px; font-family: Verdana, Geneva, Tahoma, sans-serif; text-decoration: double; color: blueviolet;}
+
+.bio_form{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: left; width: 100%;}
+
+.bio_fotos{display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: left; width: 50%;}
+
+.bio_foto1{width: 40vw; margin-left: 10px ; margin-right: 10px;}
+
+.bio_text{font-size: 25px; font-family: 'Times New Roman', Times, serif ;}
+
+.bio_nome{color: blueviolet;}
+
+
+ /*######### FIM BIOGRAFIA  ##########*/
